@@ -12,8 +12,9 @@ GameObject:
   - component: {fileID: 4622064735363152911}
   - component: {fileID: 1501153036898677012}
   - component: {fileID: 3125832442364473132}
+  - component: {fileID: 7487879025563224647}
   m_Layer: 0
-  m_Name: PlanetB-Venus
+  m_Name: Planet_B
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -111,3 +112,18 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &7487879025563224647
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1161414754848108945}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d529122a7bffea34abb951aef53f6ed1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Orbits
+  pivot: {fileID: 0}
+  angularSpeed: 20
+  selfRotationSpeed: 30
